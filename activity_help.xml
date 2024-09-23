@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AppHelper">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="42dp"
+            android:maxHeight="42dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:maxWidth="60dp"
+            android:maxHeight="42dp"
+            android:textSize="20dp"
+            android:text="Vissza" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Applikáció sikeres használata érdekében az alábbi tudnivalók fontosak:"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- A négy mező segítsével lehet beírni a kívánt részeket. Ezek a részek: 'Írd...' kezdődnek"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- a '+' gomb megnyomásával érhető el a szó felvétel. A cselekményről felugró szöveg tájékoztat és megjelennek alul a felvett adatok"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- a felvett adatokat úgy lehet frissííteni, hogy rákattintunk a kívánt értékre. A kívánt érték megjelenik a mezőkön. Átírjuk a javítandó szavakat és a 'Frissítés' ikonra(jobb oldal) kattintva megtörtént a változtatás."
+        android:textSize="18sp"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- A könyv ikonra kattintva átvisz egy másik oldalra, ahol már jobban lehet látni az adatokat. ezen az oldalon már törölni is tudjuk a rekordokat. Vigyázz a törlöd, akkor nem lehet visszaállítani."
+        android:textSize="18sp"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Keresés ikonra kattintva, rákereshetünk a szavakra."
+        android:textSize="18sp"
+        android:textColor="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Mentés ikonra kattintva elmentjük az összes felvett adatot, majd a Letöltés ikonra kattintva, letőltődik a Letöltések mappába. Fontos, hogy először a mentés gombra kattintsunk."
+        android:textSize="18sp"
+        android:textColor="#000000" />
+</LinearLayout>
